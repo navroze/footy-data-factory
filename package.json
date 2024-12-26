@@ -1,0 +1,31 @@
+{
+  "name": "footy-data-factory",
+  "version": "1.0.0",
+  "description": "Football library for famous football leagues",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --config jestconfig.json"
+  },
+  "keywords": [
+    "Premier League",
+    "Football Library",
+    "Soccer Library",
+    "Soccer API",
+    "Fantasy Premier League",
+    "FPL"
+  ],
+  "author": "Navroze Bomanji",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/axios": "^0.9.36",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.2",
+    "jest": "^29.7.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "axios": "^1.7.9"
+  }
+}
